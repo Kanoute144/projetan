@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>cours sur html</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="demo.css">
+</head>
+
+<body>
+    <h1>cour principale</h1>
+    <h2>lecon 1</h2>
+    <h3>lecon 2</h3>
+    <h4> lecon 4</h4>
+    <p>premier paragraphe</p>
+    <di>
+        <br>
+        <table border="1">
+            <tr>
+                <td width="100px" height="50px">item 1 </td>
+                <td colspan="2">item 2</td>
+            </tr>
+            <tr>
+                <td>item 3</td>
+                <td>item 4</td>
+                <td>item 5</td>
+            </tr>
+        </table>
+    </di>
+    <br>
+    <table border="1">
+        <tr>
+            <td width="100px" height="50" align="left">item 1</td>
+            <td rowspan="2">item 2</td>
+            <td>item 3</td>
+        </tr>
+        <tr>
+            <td>item 4</td>
+            <td>item 5</td>
+        </tr>
+    </table>
+    <br>
+    <table border="1">
+        <tr>
+            <td align="center" valign="middle">centré</td>
+            <td alin="left" valign="top">en haut à gauche</td>
+            <td align="right" valign="bottom">en bas à droite</td>
+        </tr>
+    </table>
+    <br>
+    <table border="1" cellspacing="10" cellpadding="20">
+        <tr>
+            <td>cellule 1</td>
+            <td>cellule 2</td>
+        </tr>
+    </table>
+    <div>
+        <br>
+        <p>Exercice 2: composez une page ressamblant à l'image suivante,</p>
+        <p align="left"> Voici la premiere partie :</p>
+        <table border="1">
+            <tr>
+                <td width="200" height="25">un tableau</td>
+                <td width="200" height="25"></td>
+                <td width="200" height="25"></td>
+            </tr>
+            <tr>
+                <td width="200" height="25"></td>
+                <td width="200" height="25">à 6</td>
+                <td width="200" height="25">case</td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <p>Voici la deuxieme partie</p> =
+    <p align="left">1. premier point</p>
+    <ul>
+        <li>rubrique 1</li>
+        <li>rubrique 2</li>
+    </ul>
+    <p>2. 2e point</p>
+    <p>3. 3e point</p>
+    <ul>
+        <li>rubrique 1</li>
+        <li>rubrique 2</li>
+    </ul>
+    <div>
+        <br>
+        <table border="1">
+            <tr>
+                <td width="150" height="20">un autre tableau</td>
+                <td width="150" height="20"></td>
+                <td width="150" height="20"></td>
+                <td width="150" height="20"></td>
+            </tr>
+            <tr>
+                <td width="150" height="60"></td>
+                <td>
+                    <table border="1">
+                        <tr>
+                            <td width="150" height="20"></td>
+                        </tr>
+                        <tr>
+                            <td width="150" height="20"></td>
+                        </tr>
+                        <tr>
+                            <td width="150" height="20"></td>
+                        </tr>
+                    </table>
+                </td>
+                <td width="150" height="60"></td>
+                <td>
+                    <table border="1">
+                        <tr>
+                            <td width="75" height="20">
+                            <td width="75" height="20"></td>
+                        </tr>
+                    </table>
+                </td>
+        </table>
+    </div>
+    <br>
+    <!-- forms -->
+    <forms action="process . php" method="post">
+        <div>
+            <label1>first name</label1>
+            <input type="text" name="first name">
+        </div>
+        <br>
+        <div>
+            <label>last name</label>
+            <input type="text" name="last name ">
+        </div>
+        <br>
+        <div>
+            <label>email</label>
+            <input type="text" name="email">
+        </div>
+        <br>
+        <div>
+            <label>password</label>
+            <input type="text" name="password">
+        </div>
+        <br>
+        <div>
+            <label>submit</label>
+            <input type="text" name="submit">
+        </div>
+        <br>
+        <p>Exercice 3 : un formulaire avec plein de choses !</p>
+        <p> Ecrivez le code HTML qui affiche le formulaire ci_dessous :</p>
+        <div>
+            <br>
+            <center>
+                <form action="#">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td><label>votre pseudo : </label></td>
+                                <td><input type="text" name="votre pseudo"></td>
+                            </tr>
+                            <tr>
+                                <td><label>votre mot de passe : </label></td>
+                                <td><input type="text" name="votre mot de passe"></td>
+                            </tr>
+                            <tr>
+                                <td><label>ressaisir votre mot de passe : </label></td>
+                                <td><input type="text" name="ressaisir votre de passe"></td>
+                            </tr>
+                            <tr>
+                                <td><label>OS préféré : </label></td>
+                                <td><input type="radio" name="media" value="windows xp">windows xp</td>
+                            </tr>
+                            <tr>
+                                <td><label></label></td>
+                                <td><input type="radio" name="media" value="windows vista">windows vista</td>
+                            </tr>
+                            <tr>
+                                <td><label></label></td>
+                                <td><input type="radio" name="media" value="macOS X">macOS X</td>
+                            </tr>
+                            <tr>
+                                <td><label></label></td>
+                                <td><input type="radio" name="media" value="linus">linus</td>
+                                <td><label></label></td>
+                            </tr>
+                            <tr>
+                                <td><label></label></td>
+                                <td><input type="radio" name="media" value="autre">autre</td>
+                            </tr>
+                            <tr>
+                                <td><label>vous possédez : </label></td>
+                                <td><input type="checkbox" name="pfn" value="un ordinateur de bureau">un ordinateur de
+                                    bureau</td>
+                            </tr>
+                            <tr>
+                                <td><label></label></td>
+                                <td><input type="checkbox" name="pfn" value="portable">portable</td>
+                            </tr>
+                            <tr>
+                                <td><label></label></td>
+                                <td><input type="checkbox" name="pfn" value="un netbook">un netbook</td>
+                            </tr>
+                            <tr>
+                                <td><label></label></td>
+                                <td><input type="checkbox" name="pfn" value="une tablette (Pad)">une tablette (Pad)</td>
+                            </tr>
+                            <tr>
+                                <td align="left" valign="top">profession : </td>
+                                <td>
+                                    <select size="5">
+
+                                        <option>chomeur</option>
+                                        <option>etudiant</option>
+                                        <option>Fontionnaire</option>
+                                        <option>privé</option>
+                                        <option>Retraité</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td align="left"><input type="submit" value="s'inscrire"></td>
+                            </tr>
+                            </tr>
+                        </tbody>
+                    </table>
+                </form>
+            </center>
+        </div>
+        <br>
+        <h1>html.css</h1>
+        <div class="position-relative">
+            <div class="position">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam laboriosam magnam molestias, suscipit
+                vero deserunt impedit aliquid nihil, aliquam sunt ex doloremque hic fuga. Amet repellat porro impedit ab
+                soluta?
+            </div>
+        </div>
+        <div class="flex">
+            <div class="flex-div-1">
+                1
+            </div>
+            <div class="flex-div-2">
+                2
+            </div>
+            <div class="flex-div-3">
+                3
+            </div>
+            <div class="flex-div-4">
+                4
+            </div>
+            <div class="flex-div-5">
+                5
+            </div>
+            <div class="flex-div-6">
+                6
+            </div>
+            <div class="flex-div-7">
+                7
+            </div>
+            <div class="flex-div-8">
+                8
+            </div>
+
+
+        </div>
+        <br>
+        <br>
+        <br>
+
+        <div class="grid">
+            <div id="1" class="grid-div-1">1</div>
+            <div id="div-2" class="grid-div-2">2</div>
+            <div id="div-3" class="grid-div-3">3</div>
+            <div id="div-4" class="grid-div-4">4</div>
+            <div class="grid-div-5">5</div>
+            <div id="div-6" class="grid-div-6">6</div>
+            <div id="div-7" class="grid-div-7">7</div>
+            <div class="grid-div-8">8</div>
+            <div class="grid-div-9">9</div>
+            <div class="grid-div-10">10</div>
+            
+
+
+
+        </div>
+
+        <div class="anime">
+
+        </div>
+
+
+
+</body>
+
+</html>
